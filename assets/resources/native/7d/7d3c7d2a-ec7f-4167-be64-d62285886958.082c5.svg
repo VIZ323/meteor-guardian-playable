@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="256" viewBox="0 0 768 256">
+  <defs>
+    <linearGradient id="flame" x1="0" x2="1"><stop stop-color="#fff1b0"/><stop offset=".45" stop-color="#ff8b3d"/><stop offset="1" stop-color="#ff3c2e" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rail" x1="0" x2="1"><stop stop-color="#efffff"/><stop offset=".35" stop-color="#8bdcff"/><stop offset="1" stop-color="#438cff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path id="attack-flame-primary" data-branch="flame" data-role="primary" d="M32 128 L232 52 L232 204 Z" fill="url(#flame)" opacity=".72" stroke="#ffb35d" stroke-width="5"/>
+  <path id="attack-tesla-primary" data-branch="tesla" data-role="primary" d="M282 128 L352 72 L422 151 L492 92" fill="none" stroke="#d39aff" stroke-width="12" stroke-linejoin="round"/>
+  <path id="attack-railgun-outer" data-branch="railgun" data-role="outer" d="M526 128 H744" fill="none" stroke="url(#rail)" stroke-width="22" stroke-linecap="round"/>
+  <path id="attack-railgun-core" data-branch="railgun" data-role="core" d="M526 128 H744" fill="none" stroke="#efffff" stroke-width="5" stroke-linecap="round"/>
+</svg>
